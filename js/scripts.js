@@ -16,19 +16,21 @@ $(document).ready(function() {
       numberList.push(index);
       console.log(numberList);
     }
-      return numberList;
-    }
-    
-//    function numberConvert(list_1) {
-//      //regex evaluation block
-//      //1 or 2/21 or 3/13/32 - Patterns to evaluate 
-//    //  const regex_1 = /\d1
-//    //  const regex_2 = 
-//    //  const regex_3 =
-//
-//      list_1.forEach(function(thing) {
-//        if (thing = regex_1) {}
-//    }
+    return numberList;
+  }
+  function numberConvert(list_1) {
+      //regex evaluation block
+      //1 or 2/21 or 3/13/32 - Patterns to evaluate 
+      //  const regex_1 = /\d1
+      //  const regex_2 = 
+      //  const regex_3 =
+    var wordList = ""
+    list_1.forEach(function(thing) {
+      wordList = wordList.concat("kapow");
+      console.log(wordList);
+    });
+    $('#numberWords').append(wordList);
+  }
 // let results = startThis();
 
 //loop to prase array into new array == #'s into words
