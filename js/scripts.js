@@ -1,14 +1,12 @@
 $(document).ready(function() {
-//  const userNumber = 10;
-  $('#inputButton').click('submit', function(event) {
+// input to collect user data  
+$('#inputButton').click('submit', function(event) {
     event.preventDefault();
     var numberList = numberArray();
     console.log(numberList);
     numberConvert(numberList);
   });  
-    // input to collect user data
-  
-    //loop to parse data into an array
+  //loop to parse data into an array
   function numberArray() {
     var userNumber = $('#input1').val();
     let numberList = [];
@@ -18,12 +16,8 @@ $(document).ready(function() {
     }
     return numberList;
   }
+  //loop to prase array into new array == #'s into words
   function numberConvert(list_1) {
-      //regex evaluation block
-      //1 or 2/21 or 3/13/32 - Patterns to evaluate 
-      //  const regex_1 = /\d1
-      //  const regex_2 = 
-      //  const regex_3 =
     var wordList = ""
     list_1.forEach(function(thing) {
       wordList = wordList.concat("kapow");
@@ -35,11 +29,6 @@ $(document).ready(function() {
 
 //loop to prase array into new array == #'s into words
 });
-
-
-
-
-
 
 
 

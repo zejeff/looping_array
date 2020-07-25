@@ -8,6 +8,20 @@
 * Javascript with Jquery 3.5.1
 ### to view the page live:
 
+#### Program script components / Spec Layout:
+Three core functions ot the javascript included:
+
+1. Collects user submitted integer, holds for later.
+    * Input: "3"
+
+2. Take the user input and creates a new list of integers ranging from 1 to the provided value
+  * Input: "3"
+  * Output: "1, 2, 3"
+
+3. Creates a new list with each listed integer replaced based on it's value
+  * Input: "1, 2, 3"
+  * Output: "Beep!, Boop!, Won't you be my neighbor!"
+
 ### To setup for local usage:
 1. Download and extract: 
 2. Open the folder - 
