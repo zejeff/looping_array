@@ -7,7 +7,7 @@
 * CSS with Bootstrap 3.3.7
 * Javascript with Jquery 3.5.1
 ### to view the page live:
-
+* https://zejeff.github.io/looping_array/
 #### Program script components / Spec Layout:
 Three core functions ot the javascript included:
 
@@ -15,16 +15,16 @@ Three core functions ot the javascript included:
     * Input: "3"
 
 2. Take the user input and creates a new list of integers ranging from 1 to the provided value
-  * Input: "3"
-  * Output: "1, 2, 3"
+    * Input: "3"
+    * Output: "1, 2, 3"
 
 3. Creates a new list with each listed integer replaced based on it's value
-  * Input: "1, 2, 3"
-  * Output: "Beep!, Boop!, Won't you be my neighbor!"
+    * Input: "1, 2, 3"
+    * Output: "Beep!, Boop!, Won't you be my neighbor!"
 
 ### To setup for local usage:
-1. Download and extract: 
-2. Open the folder - 
+1. Download and extract: https://github.com/zejeff/looping_array/archive/master.zip
+2. Open the folder - \looping_array-master
 3. Run/Load index.html in your browser, for best results use Google Chrome
 #### Copyright 2020 Jeffry Fleischer
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
