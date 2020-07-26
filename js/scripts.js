@@ -16,22 +16,32 @@ $('#inputButton').click('submit', function(event) {
     return numberList;
   }
   //loop to prase array into new array == #'s into words
-  function numberConvert(list_1) {
+  function numberConvert(numList) {
     var wordList = "";
-    list_1.forEach(function(value) {
-      switch (value) {
-        case 1:
-          wordList = wordList.concat("Beep!");
+    numList.forEach(function(value) {
+      value = String(value);
+      switch (true) {
+        case value.includes("32"):
+          wordList = wordList.concat("Won't you be my neighbor?");
           break;
-        case 2:
+        case value.includes("21"):
+          wordList = wordList.concat("Boop");
+          break;
+        case value.includes("13"):
+          wordList = wordList.concat("Won't you be my neighbor?");
+          break;
+        case value.includes("3"):
+          wordList = wordList.concat("Won't you be my neighbor?");
+          break;
+        case value.includes("2"):
           wordList = wordList.concat("Boop!");
           break;
-        case 3:
-          wordList = wordList.concat("Won't you be my neighbor?");
-          break; 
+        case value.includes("1"):
+          wordList = wordList.concat("Beep!");
+          break;  
         default: 
           wordList = wordList.concat(value);
-      }
+        }
     });
     $('#numberWords').append(wordList);
   }
